@@ -1,0 +1,5 @@
+conda create -n tflitte python=3.8.19    (tflitte=nama environmentnya)
+conda activate [nama venv]
+conda deactivate
+conda remove -n [env_name] --all
+conda env list
