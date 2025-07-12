@@ -1,0 +1,8 @@
+1. awalnya instal anaconda sbg environtmentnya, setelah instal anaconda maka akan muncul env bernama base pada default shell terminal setiap akses terminal.
+2. conda deactivate (agar keluar dari env base)
+3. conda create -n tflitte python=3.8.19    (tflitte=nama environmentnya)
+4. Pastikan sudah berada di env. tflitte lalu lanjut ke poin berikutnya
+5. pip install tensorflow
+6. pip install opencv-contrib-python
+7. pip install tflite-runtime
+8. python3 /home/x250/tflite1/tflite1/TFLite_detection_webcam.py --resolution 640x480 --threshold 0.2 --modeldir /home/x250/tflite1/tflite1/Sample       (uji apakah sdh berjalan tflite)
