@@ -1,0 +1,8 @@
+Convert model format TFLITE ke EdgeTPU
+
+ikut petunjuk : https://wiki.seeedstudio.com/convert_model_to_edge_tpu_tflite_format_for_google_coral/
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+sudo apt-get update
+sudo apt-get install edgetpu-compiler
+edgetpu_compiler YOUR_MODEL_NAME.tflite    [untuk mulai konversi]
